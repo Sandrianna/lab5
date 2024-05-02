@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="utf-8">
+    <title>Лабораторная работа №5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body class="mainbody">
+    <header>
+      <h1>Личный сайт</h1>
+    </header>
+    <main>
+      <div>
+        <h3 id="main1">Основная часть</h3>
+        <p class="info">Эта группа web-страниц будет посвящена милым животным</p>
+      </div>
+    </main>
+    <footer>
+      <h4 class="info">Ссылки на другие страницы</h4>
+      <nav class="nav">
+        <a class="nav-link" href="lab_5.html">Гугл форма</a>
+        <a class="nav-link" href="forma.html">Форма</a>
+        <a class="nav-link" href="secondPage.html" target="_blank" >Котики</a>
+        <a class="nav-link" href="thirdPage.html" target="_blank">Малые панды</a>
+        <a class="nav-link" href="fourthPage.html" target="_blank">Выдры</a>
+      </nav>
+    </footer>
+    <img id="backgroundImage" src="kurik.jpg" alt="Background Image">
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const backgroundImage = document.getElementById("backgroundImage");
+    
+        // Опускаем изображение вниз
+        backgroundImage.style.transform = "translateY(80vh)";
+      });
+    </script>
+
+    </body>
+</html>

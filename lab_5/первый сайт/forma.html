@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <title>Заполните форму</title>
+</head>
+<body>
+    <h1>Регистрация</h1>
+    <div class="form-container">
+      <form id="registration-form">
+        <label for="mail">Почта:</label>
+        <input type="text" id="mail" required>
+        <label for="grade"> Оценка работы сайта:</label>
+        <input type="text" id="grade" required>
+        <label for="comment">Комментарий:</label>
+        <input type="text" id="comment" required>
+          <button class = "button_1" type="button" id="clear-button">Очистить</button>
+          <button class = "button_2" type="submit" id="submit-button">Отправить</button>
+      </form>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modal-message"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

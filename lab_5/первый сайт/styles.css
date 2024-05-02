@@ -1,0 +1,43 @@
+.mainbody{
+    background-color: bisque;
+    margin-top: 20pt;
+    height: 300px;
+    margin-inline: 400px;  
+    border-style: double;
+}
+
+.body{
+    margin-top: 10pt;
+    margin-inline: 300px;  
+    border-style: double;
+    background-color: rgb(238, 182, 78);
+}
+
+h1{
+    text-align: center;
+}
+
+a:visited{
+    color: blue;
+}
+a:link, a:visited {
+    background-color: bisque;
+    border-style:dashed;
+    border-width: 1pt;
+    color: rgb(0, 0, 0);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: rgb(252, 209, 158);
+  }
+.nav{
+    margin-left: 20pt;
+}
+
+.nav-link{
+    margin-left: 7.5cm;
+    text-decoration: none;
+}
